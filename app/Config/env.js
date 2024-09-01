@@ -1,16 +1,15 @@
 const env = {
-  database: "umg_antigua16411",
-  username: "umg_antigua16411_user",
-  password: "rNaXVVHhcRhefHJLLE2n7VyptlKMTZty",
-  host: "dpg-cr6jvsdds78s73buvp00-a.oregon-postgres.render.com",
-  dialect: "postgres",
-  pool:{
-      max: 5,
-      min: 0,
-      acquire: 30000,
-      idle: 10000,
-  },
+  database: 'antigua_umg_progra_2024',
+  username: 'antigua_umg_progra_2024_user',
+  password: 'rvNd3DkVyPZk5PMJaOsYuuEqVB6bviYW',
+  host: 'dpg-cr6jsitds78s73buu7ag-a.oregon-postgres.render.com',
+  dialect: 'postgres',
+  pool: {
+    max: 5,
+    min: 0,
+    acquire: 30000,
+    idle: 10000
+  }
 };
 
 module.exports = env;
-
